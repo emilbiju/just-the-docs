@@ -25,7 +25,7 @@ IndicSwipe is aimed at developing a keyboard that supports gesture typing on mob
 IndicSwipe demonstrates high decoding accuracies varying from 70% to 95% on both tasks across 7 languages.
 
 <p align="left">
-   <img src="../../../assets/images/gesture_sample.jpg" width=400 height=400> <img src="../../../assets/images/simulated_gesture_sample.png" width=400 height=400>
+   <img src="assets/images/gesture_sample.jpg" width=400 height=400> <img src="assets/images/simulated_gesture_sample.png" width=400 height=400>
 </p>
 
 
