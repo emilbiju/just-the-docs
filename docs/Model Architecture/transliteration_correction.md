@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contrastive Transliteration Correction
+title: Transliteration Correction
 parent: Model Architecture
 nav_order: 2
 ---
