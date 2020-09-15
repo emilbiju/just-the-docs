@@ -16,9 +16,9 @@ This module processes the input sequence of path coordinates to predict a sequen
 
 <img src="https://render.githubusercontent.com/render/math?math=p(\hat{\textbf{y}}|\textbf{x}) = \prod_{t=1}^{T}p(\hat{y}_t|{\textbf{x}})">
 
-where x is the input sequence, y is the target sequence of length T and Ac t c (y) is the set of all frame-level alignments of y.
+where x is the input sequence, y is the target sequence of length T and <img src="https://render.githubusercontent.com/render/math?math=$\mathcal{A}_{ctc}(\textbf{y})$"> is the set of all frame-level alignments of y.
 
-Unlike conventional CTC-based models, we do not use greedy or beam-search path decoding to infer the character sequence directly from {h1,h2,h3,...,hT }. Instead, if all the vectors in a contiguous subsequence of length k (say, {hm,hm+1,hm+2,...,hm+k−1}) have the same most probable character (say, c), they are averaged to form a single vector <img src="https://render.githubusercontent.com/render/math?math=zm:m+k−1 ∈ R|C|+1"> zm:m+k−1 \in R|C|+1.
+Unlike conventional CTC-based models, we do not use greedy or beam-search path decoding to infer the character sequence directly from {h1,h2,h3,...,hT }. Instead, if all the vectors in a contiguous subsequence of length k (say, {hm,hm+1,hm+2,...,hm+k−1}) have the same most probable character (say, c), they are averaged to form a single vector <img src="https://render.githubusercontent.com/render/math?math=zm:m+k−1 \in R|C|+1">.
 
 <img src="https://render.githubusercontent.com/render/math?math=z_{m:m+k-1} = \frac{1}{k}\sum_{p=m}^{m+k-1}\{h_{p} | \arg \max_{j}h_{p,j} = c, c \neq \arg(<b>) \}
 ">
