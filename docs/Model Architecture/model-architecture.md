@@ -8,5 +8,5 @@ permalink: /docs/Model Architecture
 
 # Model Architecture
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+A detailed description of the model architecture can be found here that address both the Indic-to-indic and English-to-indic decoding tasks.
 {: .fs-6 .fw-300 }
