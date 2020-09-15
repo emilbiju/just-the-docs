@@ -6,21 +6,21 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-# Focus on writing good documentation
+# Gesture Input Decoding for Indic Languages
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+IndicSwipe provides datasets and model architectures for decoding gesture inputs for swipe typing on touch keyboards for over 7 Indic languages.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/emilbiju/just-the-indic_swipe){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 ## Getting started
 
-### Dependencies
+### About the project
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+Gesture typing is a method for typing words on a touch-based keyboard by creating a continu- ous trace passing through the relevant keys. This work is aimed at developing a keyboard that supports gesture typing for Indic languages. We begin by noting that when dealing with Indic languages, one needs to cater to two different sets of users: (i) users who prefer to type in the native Indic script (Devanagari, Bengali, etc.) and (ii) users who prefer to type using an English script keyboard but want the output in the native script. In both cases, we need a model that takes a trace as input and maps it to the intended word. To enable the development of these models we create and release two datasets. First, we create a dataset containing keyboard traces for 193,658 words across 7 Indic languages. Second, we curate 104,412 English-Indic transliteration pairs from Wikidata for 7 Indic languages. Using these datasets we build a model that performs path decoding, transliteration and transliteration correction. Unlike similar approaches, our proposed model does not make co-character independence assumptions during decoding. The overall accuracy of our model across the 7 languages varies from 70-95%.
 
 ### Quick start: Use as a GitHub Pages remote theme
 
@@ -67,17 +67,6 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 ---
 
 ## About the project
-
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
-
-### License
-
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
-
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
 
 #### Thank you to the contributors of Just the Docs!
 
