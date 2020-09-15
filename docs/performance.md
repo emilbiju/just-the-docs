@@ -20,7 +20,7 @@ We define the final accuracy of the model as the percentage of input traces that
 ## English-to-Indic Decoding
 
 | Language | Dataset Size | CTC Accuracy(%) | Transliteration Generation(%) | Final Accuracy(%) | 
-| :------- | :-------- | | :----- |
+| :------- | :-------- | | :----- | :----- | :----- |
 | Hindi  | 29074 | 98.45 | 77.56 | 89.12  |
 | Tamil | 21523 | 98.02 | 65.47 | 86.96 |
 | Bangla | 17332 | 98.60 | 43.40 |  81.13 |
@@ -33,7 +33,7 @@ We define the final accuracy of the model as the percentage of input traces that
 ## English-to-Indic Decoding
 
 | Language | Dataset Size | CTC Accuracy (%) | Final Accuracy (%) | 
-| :------- | :-------- | | :----- |
+| :------- | :-------- | | :----- | :----- |
 | Hindi  | 32415 | 68.93 | 86.75 |
 | Tamil | 24094 | 68.16 | 95.73 |
 | Bangla | 15320 | 75.06 | 88.74 |
