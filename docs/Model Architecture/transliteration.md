@@ -18,5 +18,5 @@ This model is used only in the case of English-to-Indic decoding to transliterat
 
 
 <p align="right">
-   <img src="../../../assets/images/translit_structure.png" width=30 height=30>>
+   <img src="../../../assets/images/translit_structure.png" width=30 height=30>
 </p>
