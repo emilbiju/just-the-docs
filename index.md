@@ -22,7 +22,7 @@ IndicSwipe is aimed at developing a keyboard that supports gesture typing on mob
 1. **Indic-to-indic Decoding:** To support users who prefer to type in the native Indic script (Devanagari, Bengali, etc.)
 2. **English-to-indic Decoding:** To support users who prefer to type using an English script keyboard but want the output in the native script.
 
-IndicSwipe demonstrates high decoding accuracies varying from 70% to 95% on both tasks across 7 languages.
+IndicSwipe demonstrates high decoding accuracies on both tasks varying from 70% to 95% across 7 languages.
 
 <p align="center">
    <img src="assets/images/gesture_sample.jpg" width=400 height=400>
