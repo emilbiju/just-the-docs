@@ -14,12 +14,12 @@ This model is used only in the case of English-to-Indic decoding to transliterat
 
 
 <p align="center">
-   <img src="../../../assets/images/attn_translit.png" width=400 height=500>
+   <img src="../../../assets/images/translit_structure.png" width=400 height=500>
 </p>
 
 
 <p align="center">
-   <img src="../../../assets/images/translit_structure.png" width=400 height=500>
+   <img src="../../../assets/images/attn_translit.png" width=400 height=500>
 </p>
 
 <!-- <img src="../../../assets/images/attn_translit.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"><img src="../../../assets/images/translit_structure.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"> -->
