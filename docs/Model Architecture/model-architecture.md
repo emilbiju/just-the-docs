@@ -9,7 +9,6 @@ permalink: /docs/Model Architecture
 # Model Architecture
 
 A detailed description of the model architecture can be found here which addresses both the Indic-to-indic and English-to-indic decoding tasks.
-{: .fs-6 .fw-300 }
 
 
 [CTC Path Decoding](https://emilbiju.github.io/just-the-docs/docs/Model%20Architecture/ctc_path_decoding/){: .btn .btn-purple }
