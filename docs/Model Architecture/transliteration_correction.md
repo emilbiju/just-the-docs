@@ -25,4 +25,4 @@ where <img src="https://render.githubusercontent.com/render/math?math=h_l"> repr
 
 Distance vectors for each word pair is passed through two fully connected (dense) layers to obtain a 1-D distance metric, <img src="https://render.githubusercontent.com/render/math?math=$e_{w, v}\in \mathcal{R}^1$">. The word v* from the vocabulary for which distance metric, <img src="https://render.githubusercontent.com/render/math?math=$e_{w, v^*}$"> is the smallest is chosen as the corrected word. To accomodate words that are not part of the vocabulary, we place an upper threshold on  <img src="https://render.githubusercontent.com/render/math?math=$e_{w, v^*}$"> and force the model to output the prediction from the Transliteration Generation module if it exceeds this threshold.
 
-<img src="https://render.githubusercontent.com/render/math?math=v∗ =argminew,v">
+<img src="https://render.githubusercontent.com/render/math?math=v^* = \arg \min_{v \in |\mathcal{V}|} e_{w, v}">
