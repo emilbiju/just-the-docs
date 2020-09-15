@@ -16,3 +16,13 @@ This model is used only in the case of English-to-Indic decoding to transliterat
 <p align="left">
    <img src="../../../assets/images/attn_translit.png" width=400 height=400> <img src="../../../assets/images/translit_structure.png" width=400 height=400>
 </p>
+
+
+<div class="row">
+  <div class="column">
+    <img src="../../../assets/images/translit_structure.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="../../../assets/images/attn_translit.png" alt="Forest" style="width:100%">
+  </div>
+</div>
