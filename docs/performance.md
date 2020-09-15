@@ -7,8 +7,6 @@ nav_order: 5
 # Performance
 {: .no_toc }
 
----
-
 We define the final accuracy of the model as the percentage of input traces that are correctly processed by the model to generate the Indic word. When the beam size k is greater than 1, the model is said to make a correct prediction if at least one of the k predictions is accurate. Apart from the final accuracies, we provide the intermediate accuracies observed after each module in our architectural pipeline. The results below are reported with a beam size (k) of 3.
 
 ## Indic-to-Indic Decoding
@@ -26,6 +24,8 @@ The table below shows the results achieved by IndicSwipe on the Indic-to-Indic D
 | Malayalam | 36258 | 56.98 | 95.53 |
 
 ## English-to-Indic Decoding
+
+The table below shows the results achieved by IndicSwipe on the English-to-Indic Decoding task across 7 Indic languages.
 
 | Language | Dataset Size | CTC Accuracy(%) | Transliteration Generation(%) | Final Accuracy(%) | 
 | :------- | :-------- | | :----- | :----- | :----- |
