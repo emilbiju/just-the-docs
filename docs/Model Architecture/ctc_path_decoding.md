@@ -18,6 +18,11 @@ This module processes the input sequence of path coordinates to predict a sequen
 
 where x is the input sequence, y is the target sequence of length T and <img src="https://render.githubusercontent.com/render/math?math=$\mathcal{A}_{ctc}(\textbf{y})$"> is the set of all frame-level alignments of y.
 
+<p align="left">
+   <img src="../../../assets/images/CTC_structure.png" width=400 height=400>
+</p>
+
+
 Unlike conventional CTC-based models, we do not use greedy or beam-search path decoding to infer the character sequence directly from {h1,h2,h3,...,hT }. Instead, if all the vectors in a contiguous subsequence of length k (say, {hm,hm+1,hm+2,...,hm+k−1}) have the same most probable character (say, c), they are averaged to form a single vector:
 
 <img src="https://render.githubusercontent.com/render/math?math=z_{m:m+k-1} = \frac{1}{k}\sum_{p=m}^{m+k-1}\{h_{p} | \arg \max_{j}h_{p,j} = c, c \neq \arg(<b>) \}
