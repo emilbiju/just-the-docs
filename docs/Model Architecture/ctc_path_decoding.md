@@ -18,8 +18,8 @@ This module processes the input sequence of path coordinates to predict a sequen
 
 where x is the input sequence, y is the target sequence of length T and <img src="https://render.githubusercontent.com/render/math?math=$\mathcal{A}_{ctc}(\textbf{y})$"> is the set of all frame-level alignments of y.
 
-<p align="left">
-   <img src="../../../assets/images/CTC_structure.png" width=400 height=400>
+<p align="center">
+   <img src="../../../assets/images/CTC_structure.png">
 </p>
 
 
