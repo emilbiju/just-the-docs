@@ -4,7 +4,7 @@ title: Performance
 nav_order: 5
 ---
 
-# Customization
+# Performance
 {: .no_toc }
 
 ## Table of contents
