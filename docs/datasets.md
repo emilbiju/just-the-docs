@@ -49,7 +49,7 @@ For simulating the path between two characters, a minimum jerk trajectory is fir
 
 
 <p align="left">
-   <img src="assets/images/simulated_gesture_sample.png" width=400 height=400>
+   <img src="../../../assets/images/simulated_gesture_sample.png" width=400 height=400>
 </p>
 
 
