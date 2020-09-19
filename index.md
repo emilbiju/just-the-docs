@@ -7,7 +7,7 @@ permalink: /
 ---
 
 # Gesture Input Decoding for Indic Languages
-{: .fs-8 }
+{: .fs-8.5}
 
 Datasets and NLP models for swipe typing on touch keyboards across 7 Indic languages.
 {: .fs-6 .fw-300 }
